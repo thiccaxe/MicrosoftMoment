@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('/static/BitmapMc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-mc {
+    font-family: 'Minecraft', monospace;
+}
+
+.background-mc {
+    background-image: url("/static/bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: left 37% center;
+}

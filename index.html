@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft Moment</title>
+  </head>
+  <body class="background-mc font-mc">
+    <div x-data="app" id="app" class="grid h-screen place-items-center bg-slate-900/60" x-bind="rootBind">
+      <div class="grid place-items-center bg-[#c6c6c6] p-5 rounded-md" id="anvil-ui">
+        <label class="text-2xl" for="text">Repair & Name</label>
+        <input class="
+        block
+        w-full
+        bg-[#929292]
+        border-[#5d5d5d]
+        border-4
+        focus:bg-[#5d5d5d]
+        focus:border-black
+        outline-none
+        caret-lime-500
+        text-white  
+      " x-bind="inputBind" type="text" name="text" id="text" autocomplete="off">
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
